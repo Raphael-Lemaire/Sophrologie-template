@@ -1,0 +1,68 @@
+/*
+Theme Name: theme-sophro
+Author: BTS SIO
+Description: salut c'est le theme de sophro
+Version: 0.0.1
+Tags: bootstrap, noir et blanc, responsive.............
+
+
+*/
+@font-face {
+  font-family: "arial-unicode-ms";
+  src: url("arial-unicode-ms.ttf");
+  }
+  .body {
+    background-image: url("nav.jpg");
+   }
+  .police
+  {
+    font-family: "arial-unicode-ms";
+  }
+  ul {
+    top: 0;
+    left: 0;
+    list-style-type: none;
+    float: right;
+    background-image: url("bougie.png");
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+      font-size: 25px;
+    display: block;
+    color: black;
+    padding: 13px 16px 13px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #4C693D;
+    color: #FFFF66;
+  }
+  li a.fond {
+    color: #698bae
+  }
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+.copyrights {
+  margin-top: 70px;
+  text-align: center;
+  border-top: 1px solid white;
+  padding-top: 17px;
+  
+}
+.fond {
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
+}
